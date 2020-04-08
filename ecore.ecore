@@ -433,6 +433,9 @@
         <details key="operationName" value="EGetResolve"/>
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2019/GenTS">
+        <details key="operationName" value="eGetResolve"/>
+      </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
       <eParameters name="resolve" eType="#//EBoolean"/>
     </eOperations>
