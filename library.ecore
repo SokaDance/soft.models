@@ -48,6 +48,9 @@
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Writer" eSuperTypes="#//Person">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
+      <details key="extension" value="true"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         volatile="true" transient="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="books" upperBound="-1"
