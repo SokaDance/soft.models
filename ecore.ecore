@@ -109,8 +109,8 @@
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EReference" name="eOperations" upperBound="-1"
         eType="#//EOperation" containment="true" resolveProxies="false" eOpposite="#//EOperation/eContainingClass"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="eContainments" upperBound="-1"
-        eType="#//EReference" changeable="false" transient="true" derived="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eContainmentFeatures" upperBound="-1"
+        eType="#//EStructuralFeature" changeable="false" transient="true" derived="true">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
         <details key="lazy" value="action"/>
         <details key="const" value="return"/>
@@ -119,8 +119,9 @@
         <details key="lazy" value="action"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="eCrossReferences" upperBound="-1"
-        eType="#//EReference" changeable="false" transient="true" derived="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eCrossReferenceFeatures"
+        upperBound="-1" eType="#//EStructuralFeature" changeable="false" transient="true"
+        derived="true">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
         <details key="lazy" value="action"/>
         <details key="const" value="return"/>
