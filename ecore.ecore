@@ -56,7 +56,10 @@
     </eOperations>
     <eOperations name="getEStructuralFeature" eType="#//EStructuralFeature">
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-        <details key="operationName" value="GetEStructuralFeatureFromString"/>
+        <details key="operationName" value="GetEStructuralFeatureFromName"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="operationName" value="GetEStructuralFeatureFromName"/>
       </eAnnotations>
       <eParameters name="featureName" eType="#//EString"/>
     </eOperations>
