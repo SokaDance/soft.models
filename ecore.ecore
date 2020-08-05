@@ -394,6 +394,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
     </eOperations>
     <eOperations name="eIsProxy" eType="#//EBoolean">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
@@ -401,6 +404,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
     </eOperations>
@@ -412,6 +418,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
     </eOperations>
     <eOperations name="eContainer" eType="#//EObject">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
@@ -419,6 +428,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
     </eOperations>
@@ -430,6 +442,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
     </eOperations>
     <eOperations name="eContainmentFeature" eType="#//EReference">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
@@ -439,6 +454,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
     </eOperations>
     <eOperations name="eContents">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
@@ -446,6 +464,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
       <eGenericType eClassifier="#//EEList">
@@ -460,6 +481,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
       <eGenericType eClassifier="#//ETreeIterator">
         <eTypeArguments eClassifier="#//EObject"/>
       </eGenericType>
@@ -472,6 +496,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
       <eGenericType eClassifier="#//EEList">
         <eTypeArguments eClassifier="#//EObject"/>
       </eGenericType>
@@ -482,6 +509,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
@@ -497,6 +527,7 @@
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="operationName" value="eGetResolve"/>
+        <details key="default" value="false"/>
       </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
       <eParameters name="resolve" eType="#//EBoolean"/>
@@ -506,6 +537,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
@@ -519,6 +553,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
     </eOperations>
     <eOperations name="eUnset">
@@ -528,6 +565,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="default" value="false"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="default" value="false"/>
+      </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
     </eOperations>
     <eOperations name="eInvoke" eType="#//EJavaObject" eExceptions="#//EInvocationTargetException">
@@ -535,6 +575,9 @@
         <details key="visibility" value="public:no"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="default" value="false"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
       </eAnnotations>
       <eParameters name="operation" eType="#//EOperation"/>
