@@ -284,6 +284,9 @@
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="lazy" value="function"/>
       </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="lazy" value="function"/>
+      </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EDataType" eSuperTypes="#//EClassifier">
