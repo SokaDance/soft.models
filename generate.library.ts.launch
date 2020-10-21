@@ -11,7 +11,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="soft.generator.ts.Generate"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="soft.generator.ts"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-m ../../../models/ecore.ecore &#13;&#10;-o ../../../ts&#13;&#10;-t !generateModule"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-m ../../../models/library.ecore &#13;&#10;-o ../../../ts"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="soft.generator.ts"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <booleanAttribute key="org.eclipse.jdt.launching.STOP_IN_MAIN" value="true"/>
