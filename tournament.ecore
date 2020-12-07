@@ -3,7 +3,7 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="tournament" nsURI="http://mattsch.com/emf/examples/tournament"
     nsPrefix="tournament">
   <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-    <details key="rootExtendsClass" value="ecore.EObjectImpl"/>
+    <details key="rootExtendsClass" value="ecore.ReflectiveEObjectImpl"/>
     <details key="rootExtendsInterface" value="ecore.EObject"/>
     <details key="featureDelegation" value="Reflective"/>
   </eAnnotations>
