@@ -5,6 +5,7 @@
   <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
     <details key="rootExtendsClass" value="ecore.EObjectImpl"/>
     <details key="rootExtendsInterface" value="ecore.EObject"/>
+    <details key="featureDelegation" value="Reflective"/>
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="Tournament" eSuperTypes="#//NamedElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="groups" lowerBound="1"
