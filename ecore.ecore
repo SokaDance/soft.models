@@ -758,7 +758,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#decimal"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
     </eAnnotations>
   </eClassifiers>
@@ -766,7 +766,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#integer"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
@@ -774,7 +774,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#boolean"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="bool"/>
     </eAnnotations>
   </eClassifiers>
@@ -783,7 +783,7 @@
       <details key="baseType" value="EBoolean"/>
       <details key="name" value="EBoolean:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="bool"/>
     </eAnnotations>
   </eClassifiers>
@@ -791,7 +791,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#byte"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
   </eClassifiers>
@@ -799,7 +799,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#hexBinary"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char[]"/>
     </eAnnotations>
   </eClassifiers>
@@ -808,12 +808,12 @@
       <details key="baseType" value="EByte"/>
       <details key="name" value="EByte:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EChar" instanceClassName="char">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
   </eClassifiers>
@@ -822,12 +822,12 @@
       <details key="baseType" value="EChar"/>
       <details key="name" value="EChar:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EDate" instanceClassName="java.util.Date">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="std::time_t"/>
       <details key="include" value="&lt;ctime>"/>
     </eAnnotations>
@@ -838,7 +838,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#double"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
     </eAnnotations>
   </eClassifiers>
@@ -847,13 +847,13 @@
       <details key="baseType" value="EDouble"/>
       <details key="name" value="EDouble:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EEList" instanceClassName="org.eclipse.emf.common.util.EList"
       serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="ecore::EList"/>
       <details key="include" value="&quot;ecore/EList.hpp&quot;"/>
     </eAnnotations>
@@ -869,7 +869,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#float"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="float"/>
     </eAnnotations>
   </eClassifiers>
@@ -878,7 +878,7 @@
       <details key="baseType" value="EFloat"/>
       <details key="name" value="EFloat:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="float"/>
     </eAnnotations>
   </eClassifiers>
@@ -886,7 +886,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#int"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
@@ -895,19 +895,19 @@
       <details key="baseType" value="EInt"/>
       <details key="name" value="EInt:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EJavaClass" instanceClassName="java.lang.Class">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="const std::type_info*"/>
       <details key="include" value="&lt;typeinfo>"/>
     </eAnnotations>
     <eTypeParameters name="T"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EJavaObject" instanceClassName="java.lang.Object">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="ecore::Any"/>
       <details key="include" value="&quot;ecore/Any.hpp&quot;"/>
     </eAnnotations>
@@ -951,7 +951,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#short"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="short"/>
     </eAnnotations>
   </eClassifiers>
@@ -960,7 +960,7 @@
       <details key="baseType" value="EShort"/>
       <details key="name" value="EShort:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="short"/>
     </eAnnotations>
   </eClassifiers>
@@ -968,7 +968,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#string"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="std::string"/>
       <details key="include" value="&lt;string>"/>
     </eAnnotations>
