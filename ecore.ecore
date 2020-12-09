@@ -290,6 +290,9 @@
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EDataType" eSuperTypes="#//EClassifier">
+    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+      <details key="extension" value="true"/>
+    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="serializable" eType="#//EBoolean"
         defaultValueLiteral="true"/>
   </eClassifiers>
