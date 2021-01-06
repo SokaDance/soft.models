@@ -8,6 +8,7 @@
   <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
     <details key="factory" value="extension"/>
     <details key="lazy" value="list:function"/>
+    <details key="rootExtendsClass" value="ecore.CompactEObjectContainer"/>
   </eAnnotations>
   <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
     <details key="factory" value="extension"/>
