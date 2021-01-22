@@ -766,9 +766,6 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="float64"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EBigInteger" instanceClassName="java.math.BigInteger">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -777,18 +774,12 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="int"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EBoolean" instanceClassName="boolean">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#boolean"/>
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
-      <details key="instanceTypeName" value="bool"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
       <details key="instanceTypeName" value="bool"/>
     </eAnnotations>
   </eClassifiers>
@@ -800,9 +791,6 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="bool"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="bool"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EByte" instanceClassName="byte">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -811,9 +799,6 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="byte"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EByteArray" instanceClassName="byte[]">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -821,9 +806,6 @@
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char[]"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="[]byte"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EByteObject" instanceClassName="java.lang.Byte">
@@ -834,16 +816,10 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="byte"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EChar" instanceClassName="char">
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="byte"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ECharacterObject" instanceClassName="java.lang.Character">
@@ -854,34 +830,21 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="char"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="byte"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EDate" instanceClassName="java.util.Date">
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="std::time_t"/>
       <details key="include" value="&lt;ctime>"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="time.Time"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EDiagnosticChain" instanceClassName="org.eclipse.emf.common.util.DiagnosticChain"
-      serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EDiagnosticChain"/>
-    </eAnnotations>
-  </eClassifiers>
+      serializable="false"/>
   <eClassifiers xsi:type="ecore:EDataType" name="EDouble" instanceClassName="double">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#double"/>
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="float64"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EDoubleObject" instanceClassName="java.lang.Double">
@@ -891,9 +854,6 @@
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="double"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="float64"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EEList" instanceClassName="org.eclipse.emf.common.util.EList"
@@ -917,9 +877,6 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="float"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="float64"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EFloatObject" instanceClassName="java.lang.Float">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -929,18 +886,12 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="float"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="float64"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EInt" instanceClassName="int">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#int"/>
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
-      <details key="instanceTypeName" value="int"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
@@ -952,17 +903,11 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="int"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="int"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EJavaClass" instanceClassName="java.lang.Class">
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="const std::type_info*"/>
       <details key="include" value="&lt;typeinfo>"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="reflect.Type"/>
     </eAnnotations>
     <eTypeParameters name="T"/>
   </eClassifiers>
@@ -971,9 +916,6 @@
       <details key="instanceTypeName" value="ecore::Any"/>
       <details key="include" value="&quot;ecore/Any.hpp&quot;"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="interface{}"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ELong" instanceClassName="long">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -981,9 +923,6 @@
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="long"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ELongObject" instanceClassName="java.lang.Long">
@@ -1004,9 +943,6 @@
       <details key="instanceTypeName" value="std::map"/>
       <details key="include" value="&lt;map>"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EMap"/>
-    </eAnnotations>
     <eTypeParameters name="K"/>
     <eTypeParameters name="V"/>
   </eClassifiers>
@@ -1016,25 +952,15 @@
       <details key="instanceTypeName" value="std::shared_ptr&lt;ecore::EResource>"/>
       <details key="include" value="&quot;ecore/EResource.hpp&quot;"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EResource"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EResourceSet" instanceClassName="org.eclipse.emf.ecore.resource.ResourceSet"
-      serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EResourceSet"/>
-    </eAnnotations>
-  </eClassifiers>
+      serializable="false"/>
   <eClassifiers xsi:type="ecore:EDataType" name="EShort" instanceClassName="short">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#short"/>
     </eAnnotations>
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="short"/>
-    </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="uint16"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EShortObject" instanceClassName="java.lang.Short">
@@ -1045,9 +971,6 @@
     <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="short"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="uint16"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EString" instanceClassName="java.lang.String">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -1057,14 +980,8 @@
       <details key="instanceTypeName" value="std::string"/>
       <details key="include" value="&lt;string>"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="string"/>
-    </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EStringToStringMapEntry" instanceClassName="java.util.Map$Entry">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EMapEntry"/>
-    </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString">
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="getterName" value="GetStringKey"/>
@@ -1080,9 +997,6 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ETreeIterator" instanceClassName="org.eclipse.emf.common.util.TreeIterator"
       serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-      <details key="instanceTypeName" value="ecore.EIterator"/>
-    </eAnnotations>
     <eTypeParameters name="E"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EGenericType">
