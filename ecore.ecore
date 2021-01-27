@@ -267,6 +267,7 @@
       </eAnnotations>
       <eParameters name="object" eType="#//EJavaObject"/>
     </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClass">
       <eGenericType eClassifier="#//EJavaClass">
         <eTypeArguments/>
@@ -920,7 +921,7 @@
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="baseType" value="http://www.w3.org/2001/XMLSchema#long"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="long"/>
     </eAnnotations>
   </eClassifiers>
@@ -929,13 +930,16 @@
       <details key="baseType" value="ELong"/>
       <details key="name" value="ELong:Object"/>
     </eAnnotations>
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="long"/>
+    </eAnnotations>
+    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+      <details key="instanceTypeName" value="int"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EMap" instanceClassName="java.util.Map"
       serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="std::map"/>
       <details key="include" value="&lt;map>"/>
     </eAnnotations>
@@ -944,7 +948,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="EResource" instanceClassName="org.eclipse.emf.ecore.resource.Resource"
       serializable="false">
-    <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
       <details key="instanceTypeName" value="std::shared_ptr&lt;ecore::EResource>"/>
       <details key="include" value="&quot;ecore/EResource.hpp&quot;"/>
     </eAnnotations>
@@ -978,8 +982,18 @@
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EStringToStringMapEntry" instanceClassName="java.util.Map$Entry">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString">
+      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="getterName" value="GetStringKey"/>
+        <details key="setterName" value="SetStringKey"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString">
+      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="getterName" value="GetStringValue"/>
+        <details key="setterName" value="SetStringValue"/>
+      </eAnnotations>
+    </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ETreeIterator" instanceClassName="org.eclipse.emf.common.util.TreeIterator"
       serializable="false">
