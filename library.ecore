@@ -2,6 +2,9 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="library" nsURI="http:///org/eclipse/emf/examples/library/library.ecore/1.0.0"
     nsPrefix="lib">
+  <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+    <details key="supressAnnotations" value="http://www.eclipse.org/emf/2002/Ecore http://net.masagroup/soft/2018/GenCpp http://net.masagroup/soft/2020/GenTS"/>
+  </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="Book" eSuperTypes="#//CirculatingItem">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="pages" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
