@@ -313,7 +313,7 @@
         <details key="operationName" value="GetEEnumLiteralByName"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
-        <details key="operationName" value="GetEEnumLiteralByName"/>
+        <details key="operationName" value="getEEnumLiteralByName"/>
       </eAnnotations>
       <eParameters name="name" eType="#//EString"/>
     </eOperations>
@@ -322,7 +322,7 @@
         <details key="operationName" value="GetEEnumLiteralByValue"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
-        <details key="operationName" value="GetEEnumLiteralByValue"/>
+        <details key="operationName" value="getEEnumLiteralByValue"/>
       </eAnnotations>
       <eParameters name="value" eType="#//EInt"/>
     </eOperations>
