@@ -267,12 +267,14 @@
       </eAnnotations>
       <eParameters name="object" eType="#//EJavaObject"/>
     </eOperations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClassName" eType="#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClass">
       <eGenericType eClassifier="#//EJavaClass">
         <eTypeArguments/>
       </eGenericType>
     </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="#//EString"
+        volatile="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultValue" eType="#//EJavaObject"
         changeable="false" volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ePackage" eType="#//EPackage"
