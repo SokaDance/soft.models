@@ -999,18 +999,8 @@
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EStringToStringMapEntry" instanceClassName="java.util.Map$Entry">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString">
-      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-        <details key="getterName" value="GetStringKey"/>
-        <details key="setterName" value="SetStringKey"/>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString">
-      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-        <details key="getterName" value="GetStringValue"/>
-        <details key="setterName" value="SetStringValue"/>
-      </eAnnotations>
-    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ETreeIterator" instanceClassName="org.eclipse.emf.common.util.TreeIterator"
       serializable="false">
