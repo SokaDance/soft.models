@@ -267,12 +267,14 @@
       </eAnnotations>
       <eParameters name="object" eType="#//EJavaObject"/>
     </eOperations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClassName" eType="#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClass">
       <eGenericType eClassifier="#//EJavaClass">
         <eTypeArguments/>
       </eGenericType>
     </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="#//EString"
+        volatile="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultValue" eType="#//EJavaObject"
         changeable="false" volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ePackage" eType="#//EPackage"
@@ -308,12 +310,15 @@
     <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
       <details key="extension" value="true"/>
     </eAnnotations>
+    <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+      <details key="extension" value="true"/>
+    </eAnnotations>
     <eOperations name="getEEnumLiteral" eType="#//EEnumLiteral">
       <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
         <details key="operationName" value="GetEEnumLiteralByName"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
-        <details key="operationName" value="GetEEnumLiteralByName"/>
+        <details key="operationName" value="getEEnumLiteralByName"/>
       </eAnnotations>
       <eParameters name="name" eType="#//EString"/>
     </eOperations>
@@ -322,7 +327,7 @@
         <details key="operationName" value="GetEEnumLiteralByValue"/>
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
-        <details key="operationName" value="GetEEnumLiteralByValue"/>
+        <details key="operationName" value="getEEnumLiteralByValue"/>
       </eAnnotations>
       <eParameters name="value" eType="#//EInt"/>
     </eOperations>
@@ -334,6 +339,9 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EEnumLiteral" eSuperTypes="#//ENamedElement">
     <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+      <details key="extension" value="true"/>
+    </eAnnotations>
+    <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
       <details key="extension" value="true"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EInt"/>
@@ -991,18 +999,8 @@
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EStringToStringMapEntry" instanceClassName="java.util.Map$Entry">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString">
-      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-        <details key="getterName" value="GetStringKey"/>
-        <details key="setterName" value="SetStringKey"/>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString">
-      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
-        <details key="getterName" value="GetStringValue"/>
-        <details key="setterName" value="SetStringValue"/>
-      </eAnnotations>
-    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="ETreeIterator" instanceClassName="org.eclipse.emf.common.util.TreeIterator"
       serializable="false">
