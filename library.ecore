@@ -60,7 +60,7 @@
         <details key="kind" value="group"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="ownerPdg" eType="#//Person"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="proprietary" eType="#//Person"
         containment="true">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="name" value="owner-pdg"/>
