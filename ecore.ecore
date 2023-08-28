@@ -195,6 +195,19 @@
         <details key="lazy" value="action"/>
       </eAnnotations>
     </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllCrossReferences" upperBound="-1"
+        eType="#//EReference" changeable="false" transient="true" derived="true">
+      <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
+        <details key="lazy" value="action"/>
+        <details key="const" value="return"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
+        <details key="lazy" value="action"/>
+      </eAnnotations>
+      <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
+        <details key="lazy" value="action"/>
+      </eAnnotations>
+    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EReference" name="eAllOperations" upperBound="-1"
         eType="#//EOperation" changeable="false" transient="true" derived="true">
       <eAnnotations source="http://net.masagroup/soft/2018/GenCpp">
