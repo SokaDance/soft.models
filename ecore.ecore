@@ -7,7 +7,7 @@
   </eAnnotations>
   <eAnnotations source="http://net.masagroup/soft/2019/GenGo">
     <details key="lazy" value="list:function"/>
-    <details key="rootExtendsClass" value="github.com/masagroup/soft.go/ecore.CompactEObjectContainer"/>
+    <details key="rootExtendsClass" value="github.com/masagroup/soft.go/ecore/ecore.CompactEObjectContainer"/>
     <details key="exported" value="true"/>
   </eAnnotations>
   <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
