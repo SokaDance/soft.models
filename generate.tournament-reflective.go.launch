@@ -14,7 +14,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="soft.generator.go.Generate"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="soft.generator.go"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-m ../../../models/ecore.ecore &#13;&#10;-o ../../../go"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-m ../../../models/tournament.ecore &#13;&#10;-o ../../../go&#13;&#10;-P ../../../go/generator.properties&#13;&#10;-p featureDelegation=Reflective&#13;&#10;-p module=github.com/masagroup/soft.go&#13;&#10;-p packages=github.com/masagroup/soft.go/test/tournament-reflective/tournament#github.com/masagroup/soft.go/test/tournament-reflective/internal/impls/impls#github.com/masagroup/soft.go/test/tournament-reflective/internal/mocks/mocks"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="soft.generator.go"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>
