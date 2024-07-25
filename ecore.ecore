@@ -554,6 +554,7 @@
       </eAnnotations>
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="default" value="false"/>
+        <details key="async" value="true"/>
       </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
     </eOperations>
@@ -569,6 +570,7 @@
       <eAnnotations source="http://net.masagroup/soft/2020/GenTS">
         <details key="operationName" value="eGetResolve"/>
         <details key="default" value="false"/>
+        <details key="async" value="true"/>
       </eAnnotations>
       <eParameters name="feature" eType="#//EStructuralFeature"/>
       <eParameters name="resolve" eType="#//EBoolean"/>
